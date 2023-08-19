@@ -1,0 +1,37 @@
+.home-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 100px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 40px;
+    // background-color: #E3D888;
+    border-radius: 4px;
+    background-color: black;
+    color: green;
+
+    h3 {
+        color: antiquewhite;
+    }
+    
+    div {
+        // display: grid;
+        // grid-column: 2;
+        // grid-template-rows: 1fr 1fr;
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        margin-top: 20px;
+    }
+    img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+.main-app {
+    background-color: black;
+    color: green;
+}

@@ -1,0 +1,23 @@
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    > * {
+        margin-top: 10px;
+    }
+
+    h3 {
+        color: white;
+    }
+
+    .display {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .actions {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+}

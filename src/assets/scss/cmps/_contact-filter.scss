@@ -1,0 +1,22 @@
+.contact-filter {
+    display: flex;
+    flex-wrap: wrap;
+    margin-block: 20px;
+    justify-content: center;
+    text-align: center;
+    // background-color: #e3d888 ;
+    background-color: black;
+    color: green;
+    padding: 20px 0 20px;
+    justify-items: center;
+    border-radius: 4px;
+    > section {
+        display: flex;
+        gap: 10px;
+    }
+    input {
+        height: 40px;
+        width: 300px;
+        border-radius: 4px;
+    }
+}
